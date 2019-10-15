@@ -20,8 +20,6 @@ public class VetController {
 
         System.out.println(vetService.findAll());
 
-
-
         return "vets/index";
     }
 }
