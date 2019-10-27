@@ -64,10 +64,10 @@ class OwnerSDJpaServiceTest {
 
         when(ownerRepository.findAll()).thenReturn(ownerSet);
 
-        Set<Owner> retuendOwners = ownerSDJpaService.findAll();
+        Set<Owner> returnOwners = ownerSDJpaService.findAll();
 
-        assertNotNull(retuendOwners);
-        assertEquals(2, retuendOwners.size());
+        assertNotNull(returnOwners);
+        assertEquals(2, returnOwners.size());
     }
 
     @Test
